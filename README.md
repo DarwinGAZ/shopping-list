@@ -7,7 +7,7 @@ Este é um projeto simples de **Lista de Compras** feito com HTML, CSS e JavaScr
 🔗 [Clique aqui para testar](https://darwingaz.github.io/shopping-list/)
 
 
-## 🚀 Funcionalidades
+## ⚙ Funcionalidades
 
 - ✅ Adicionar novos itens à lista
 - ✅ Marcar itens como concluídos
