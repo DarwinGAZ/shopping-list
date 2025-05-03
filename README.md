@@ -20,9 +20,4 @@ A interface é simples e adaptada para dispositivos móveis, com um design limpo
 - CSS3
 - JavaScript (puro)
 
-## 📁 Estrutura do Projeto
 
-📁 lista-de-compras/
-├── index.html # Estrutura da página
-├── style.css # Estilos do projeto
-└── script.js # Funcionalidades em JavaScrip
