@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #27ae60;
+}
+
+.lista-compras li {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+.lista-compras li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #2c3e50;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.lista-compras .acoes {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.item-text {
+    display: inline-block;
+}
+
+input[type="checkbox"]:checked + .item-text {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button.excluir {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+button.excluir:hover {
+    background-color: #c0392b;
+}
+
+button.excluir:active {
+    transform: scale(0.95);
+}
+
+input[type="checkbox"] + label {
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.limpar-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#limpar-lista {
+    display: none;
+    background: none;
+    color: red;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
